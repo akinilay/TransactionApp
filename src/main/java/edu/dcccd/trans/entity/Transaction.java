@@ -38,4 +38,7 @@ public class Transaction {
         return now.format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM));
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
